@@ -8,7 +8,7 @@
 	},
 	"name": "Businesscards_App",
 	"description": null,
-	"ver": "25.04.16.1346",
+	"ver": "25.04.16.1347",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": null,
@@ -139,6 +139,11 @@
 	],
 	"tilegroup_layout": [],
 	"launchpad": [
+		{
+			"id": "a65b8eb1-c91a-f011-aaa7-000d3ab36043",
+			"name": "BusinessCardLP_Maintain",
+			"description": null
+		},
 		{
 			"id": "188030c4-4503-f011-90c9-7c1e5237a7cf",
 			"name": "BusinessCardLP",
