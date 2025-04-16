@@ -1,0 +1,2 @@
+if (typeof ScheduleMeetingLink === "undefined" || ScheduleMeetingLink === null || ScheduleMeetingLink === "") { return false; }  
+return true;

@@ -1,0 +1,47 @@
+{
+	"id": "c43aba21-4a03-f011-90c9-7c1e5237a7cf",
+	"createdAt": "2025-03-17T16:08:59.480Z",
+	"createdBy": "magnus.ertel@neptune-software.com",
+	"fields": [
+		{
+			"id": "9b3e1462-33ba-461b-8d3e-76b5416357f8",
+			"fieldName": "systemLink",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Example: \"https://gtmdemosystem.neptune-software.cloud/\""
+		},
+		{
+			"id": "67b2bd1b-ea1e-4091-939f-26eb30607e3f",
+			"fieldName": "launchpadLink",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Example: \"public/launchpad/BusinessCardLP\""
+		},
+		{
+			"id": "3bc7880f-ae5b-468d-bc29-4aeb8daf7d05",
+			"fieldName": "appName",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Example: \"#businesscardapp\""
+		},
+		{
+			"id": "a751e3c9-4d66-4b56-d07e-a06c07d84e4f",
+			"fieldName": "configName",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Config Name",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "businesscardadmin",
+	"description": null,
+	"ver": "25.03.17.1624",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "1d4986b7-1ec0-ed11-a8e0-000d3ada944e",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}

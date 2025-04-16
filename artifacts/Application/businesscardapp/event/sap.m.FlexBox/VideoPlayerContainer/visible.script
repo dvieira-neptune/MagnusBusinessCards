@@ -1,0 +1,2 @@
+if (typeof VideoLink === "undefined" || VideoLink === null || VideoLink === "") { return false; }  
+return true;

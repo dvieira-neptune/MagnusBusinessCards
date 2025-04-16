@@ -1,0 +1,2 @@
+if (typeof LinkedInLink === "undefined" || LinkedInLink === null || LinkedInLink === "") { return false; }  
+return true;

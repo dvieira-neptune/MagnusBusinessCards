@@ -1,0 +1,170 @@
+{
+	"id": "1d4986b7-1ec0-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-11T15:09:28.893Z",
+	"createdBy": "magnus.ertel@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/dvieira-neptune/MagnusBusinessCards",
+		"branch": "master"
+	},
+	"name": "Businesscards_App",
+	"description": null,
+	"ver": "25.04.16.1346",
+	"enableCICD": true,
+	"internalReadOnly": false,
+	"oeVersion": null,
+	"excludeTemplateFiles": false,
+	"roles": [],
+	"apps": [
+		{
+			"id": "9307e021-b404-f011-aaa7-6045bdde104c",
+			"application": "businesscard_maintain",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "68ff85f6-ea8a-4906-f408-26009a7c9b9d",
+			"application": "businesscardapp",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "a9bd48c2-c805-f011-aaa7-6045bdde104c",
+			"name": "businesscardscripts",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "84e59215-6d05-f011-aaa7-6045bdde104c",
+			"name": "businesscard_backgrounds",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "78a8230d-4b03-f011-90c9-7c1e5237a7cf",
+			"name": "businesscardadmin",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "3df7047a-20c0-ed11-a8e0-000d3ada944e",
+			"name": "businesscards_info",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "dce12eca-6c05-f011-aaa7-6045bdde104c",
+			"name": "businesscard_backgrounds",
+			"description": null
+		},
+		{
+			"id": "d4c7ea07-1fc0-ed11-a8e0-000d3ada944e",
+			"name": "businesscard_info",
+			"description": null
+		},
+		{
+			"id": "c43aba21-4a03-f011-90c9-7c1e5237a7cf",
+			"name": "businesscardadmin",
+			"description": null
+		}
+	],
+	"jsclass": [
+		{
+			"id": "472b20d0-4c03-f011-90c9-7c1e5237a7cf",
+			"name": "createDeepLinkForUser",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "96789cd9-4803-f011-90c9-7c1e5237a7cf",
+			"name": "businessCardScripts",
+			"description": ""
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "d6959275-4c03-f011-90c9-7c1e5237a7cf",
+			"name": "BusinessCardAdminForm",
+			"description": "BusinessCardAdminForm",
+			"application": "neptunedxp_adaptive_edit"
+		},
+		{
+			"id": "6e37ffa0-4b03-f011-90c9-7c1e5237a7cf",
+			"name": "BusinessCardAdmin",
+			"description": "Maintain business card admin infos",
+			"application": "neptunedxp_adaptive_list"
+		}
+	],
+	"api_authentication": [
+		{
+			"id": "c6a0ed4a-4703-f011-90c9-7c1e5237a7cf",
+			"name": "MagnusTestGTMDemo",
+			"description": null
+		}
+	],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "c0d7fc50-4603-f011-90c9-7c1e5237a7cf",
+			"description": null,
+			"name": "BusinessCardViewer"
+		},
+		{
+			"id": "a05cea0e-b504-f011-aaa7-6045bdde104c",
+			"description": null,
+			"name": "MaintainBusinessCard"
+		}
+	],
+	"tile_layout": [],
+	"category": [
+		{
+			"id": "f0526023-0ac4-ed11-a8e0-000d3ada944e",
+			"description": null,
+			"name": "Businesscards_tilegroup"
+		},
+		{
+			"id": "c2d7fc50-4603-f011-90c9-7c1e5237a7cf",
+			"description": null,
+			"name": "BusinessCardApps"
+		}
+	],
+	"tilegroup_layout": [],
+	"launchpad": [
+		{
+			"id": "188030c4-4503-f011-90c9-7c1e5237a7cf",
+			"name": "BusinessCardLP",
+			"description": null
+		}
+	],
+	"launchpad_layout": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [
+		{
+			"id": "aaa43d73-4b03-f011-90c9-7c1e5237a7cf",
+			"name": "businessCardAdminConnector",
+			"description": null
+		}
+	],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": [],
+	"theme_ui5": [],
+	"webapp": []
+}

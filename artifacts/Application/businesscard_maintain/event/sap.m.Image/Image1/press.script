@@ -1,0 +1,14 @@
+
+// Get Binding Context
+
+// Replace yourField with FieldName
+const context = oEvent.oSource.getBindingContext();
+
+
+
+// Get entire model
+const data = context.getObject();
+ImageQRCodePreview.setSrc(data.qrCodeImage);
+TitleDialogQRCodePreview.setText(data.businessCardName);
+DialogQRCodePreview.open();
+

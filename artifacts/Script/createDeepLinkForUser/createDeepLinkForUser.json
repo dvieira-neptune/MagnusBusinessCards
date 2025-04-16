@@ -1,0 +1,44 @@
+{
+	"id": "472b20d0-4c03-f011-90c9-7c1e5237a7cf",
+	"createdAt": "2025-03-17T16:28:11.993Z",
+	"createdBy": "magnus.ertel@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "6F75624C-5003-F011-90C9-7C1E5237A7CF",
+			"name": "qrcode-npm",
+			"contextname": "qrcodenpm",
+			"path": "/home/planet9/ext-disk/npm-serverscript/node_modules/qrcode-npm"
+		},
+		{
+			"id": "95BF7781-2DAB-EF11-88CF-0022489C9842",
+			"name": "qrcode-generator",
+			"contextname": "qrcodegenerator",
+			"path": "/home/planet9/ext-disk/npm-serverscript/node_modules/qrcode-generator"
+		}
+	],
+	"entitySets": [
+		{
+			"id": "d4c7ea07-1fc0-ed11-a8e0-000d3ada944e",
+			"name": "businesscard_info",
+			"contextname": "businesscard_info"
+		},
+		{
+			"id": "c43aba21-4a03-f011-90c9-7c1e5237a7cf",
+			"name": "businesscardadmin",
+			"contextname": "businesscardadmin"
+		}
+	],
+	"apis": [],
+	"name": "createDeepLinkForUser",
+	"ver": "25.03.22.0901",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "96789cd9-4803-f011-90c9-7c1e5237a7cf",
+	"package": "1d4986b7-1ec0-ed11-a8e0-000d3ada944e"
+}

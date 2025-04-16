@@ -1,0 +1,2 @@
+if (typeof CompanyLink === "undefined" || CompanyLink === null || CompanyLink === "") { return false; }  
+return true;

@@ -1,0 +1,28 @@
+{
+	"id": "c6a0ed4a-4703-f011-90c9-7c1e5237a7cf",
+	"createdAt": "2025-03-17T15:48:39.330Z",
+	"createdBy": "magnus.ertel@neptune-software.com",
+	"headers": [],
+	"details": {
+		"subject": {},
+		"headers": [],
+		"password": "5b58ac3a30fdc8e628e1db555ee0a2",
+		"secret": "",
+		"includeRoles": false,
+		"includeGroups": false,
+		"username": "Magnus"
+	},
+	"azureRelayDetails": {
+		"ns": "",
+		"hcName": "",
+		"apName": "",
+		"apKey": ""
+	},
+	"name": "MagnusTestGTMDemo",
+	"description": null,
+	"type": "basic",
+	"useCloudConnector": false,
+	"cloudConnectorType": null,
+	"ver": "25.03.17.1549",
+	"package": "1d4986b7-1ec0-ed11-a8e0-000d3ada944e"
+}

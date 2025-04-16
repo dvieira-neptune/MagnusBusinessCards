@@ -1,0 +1,243 @@
+{
+	"id": "6e37ffa0-4b03-f011-90c9-7c1e5237a7cf",
+	"createdAt": "2025-03-17T16:19:41.730Z",
+	"createdBy": "magnus.ertel@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"hideHeader": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": false,
+				"enableClose": false,
+				"enableDelete": false,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueListReference",
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"fieldType": "Navigation",
+					"displayResponse": false,
+					"dialogHeader": true,
+					"destinationTargetF": "d6959275-4c03-f011-90c9-7c1e5237a7cf",
+					"keyField": []
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true,
+				"headerPreserveState": false,
+				"enableSearchWildcard": false
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"fixedLayout": false,
+				"inset": false,
+				"enableCompact": false,
+				"enableAutoPopin": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "configName",
+				"label": "Config Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "appName",
+				"label": "Example: \"#businesscardapp\"",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "systemLink",
+				"label": "Example: \"https://gtmdemosystem.neptune-software.cloud/\"",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "launchpadLink",
+				"label": "Example: \"public/launchpad/BusinessCardLP\"",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"name": "configName",
+				"text": "Config Name",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true,
+				"fieldPos": 1
+			},
+			{
+				"name": "systemLink",
+				"text": "System Link",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true,
+				"fieldPos": 2
+			},
+			{
+				"name": "launchpadLink",
+				"text": "LP Link",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true,
+				"fieldPos": 3
+			},
+			{
+				"name": "appName",
+				"text": "App Name",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true,
+				"fieldPos": 4
+			}
+		],
+		"defaultVariant": {
+			"id": "dc3eafe9-e63a-4d47-d9a1-889ec20c4852",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"translation": {
+			"EN": {
+				"report": {
+					"title": "",
+					"subTitle": "",
+					"textButtonClose": "",
+					"textButtonCreate": "",
+					"textButtonExport": "",
+					"textButtonImport": "",
+					"textButtonMultiSelect": "",
+					"textButtonRun": "",
+					"searchLabel": "",
+					"searchPlaceholder": "",
+					"requiredFieldsToast": "",
+					"textConfirmDelete": "",
+					"titleConfirmDelete": "",
+					"odataValueList": ""
+				},
+				"form": {},
+				"table": {
+					"headerText": "",
+					"footerText": "",
+					"noDataText": "",
+					"action1Tooltip": "",
+					"action2Tooltip": "",
+					"action3Tooltip": "",
+					"action4Tooltip": "",
+					"action5Tooltip": ""
+				},
+				"fieldCatalog": {}
+			}
+		},
+		"table": "businesscardadmin"
+	},
+	"name": "BusinessCardAdmin",
+	"description": "Maintain business card admin infos",
+	"group": "",
+	"type": "C",
+	"connectorid": "aaa43d73-4b03-f011-90c9-7c1e5237a7cf",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "25.03.17.1626",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_list",
+	"package": "1d4986b7-1ec0-ed11-a8e0-000d3ada944e",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

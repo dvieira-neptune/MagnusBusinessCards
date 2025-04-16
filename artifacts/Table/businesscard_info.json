@@ -1,0 +1,181 @@
+{
+	"id": "d4c7ea07-1fc0-ed11-a8e0-000d3ada944e",
+	"createdAt": "2023-03-11T15:11:45.573Z",
+	"createdBy": "magnus.ertel@neptune-software.com",
+	"fields": [
+		{
+			"id": "d61d8ba0-f475-4ba5-8fb3-ca37e3254842",
+			"fieldName": "name",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e9e9e291-2e6c-45a7-d0ef-2049ffe17737",
+			"fieldName": "position",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "bd1b75d4-bfea-4bac-86c4-ec44be7bf995",
+			"fieldName": "mail",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b6911f34-460f-492f-bbb9-098785a9e940",
+			"fieldName": "phone",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "6b600301-32b8-4670-ad8a-36b674b78ed4",
+			"fieldName": "mobile",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "38dbb9df-3156-4ad9-8888-299a660cd4f9",
+			"fieldName": "directLink",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "da815db8-3485-4626-adf3-e080db23d4dd",
+			"fieldName": "qrCodeImage",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "3e282c07-0e63-4d0f-ab9c-8f14002405a8",
+			"fieldName": "companyDepartment",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "5b9683a9-66b8-4651-e53e-47f6281f44ba",
+			"fieldName": "companyName",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true,
+			"default": ""
+		},
+		{
+			"id": "707835ee-eb18-40dd-86ca-382ba42e69ee",
+			"fieldName": "city",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "3055592b-dfc2-4261-80fe-9eb80e074705",
+			"fieldName": "postalcode",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "36a3f92c-3c3e-471d-8c0f-6c0feb4b2a7f",
+			"fieldName": "departmentLocation",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "HQ",
+			"isNullable": true
+		},
+		{
+			"id": "c54b8250-daa9-462e-9896-bfae38975a4e",
+			"fieldName": "country",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ee0a04b5-b45e-491d-d1d4-2c860f6ed806",
+			"fieldName": "LinkedInLink",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a870cdce-d718-4f31-e5ea-e084e4dac113",
+			"fieldName": "InstagramLink",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "61a68764-18cf-4d2d-f953-061aa178cfe5",
+			"fieldName": "WhatsAppLink",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "be956295-e08b-4846-8e51-f7e0c44e0407",
+			"fieldName": "ScheduleMeetingLink",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "c180bf2b-24aa-417e-ea86-24e638308ff5",
+			"fieldName": "CompanyLink",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "bd5eb577-ad06-41ce-8ba0-3dad9b12a307",
+			"fieldName": "VideoLink",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "8a60fea6-94f8-480f-ae9e-d31e5de64dc4",
+			"fieldName": "profilePictureLink",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "66f495ec-d635-4e6a-cccf-85e7f93f5985",
+			"fieldName": "creationMail",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "73345601-7fa0-4a7e-f964-6359eab94c76",
+			"fieldName": "businessCardName",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "0141d8c0-093f-41a5-8d93-93aaedf654ce",
+			"fieldName": "backgroundLink",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "businesscard_info",
+	"description": null,
+	"ver": "25.03.20.1926",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "1d4986b7-1ec0-ed11-a8e0-000d3ada944e",
+	"generationStrategy": null,
+	"rolesRead": [],
+	"rolesWrite": []
+}

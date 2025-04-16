@@ -1,0 +1,2 @@
+if (typeof InstagramLink === "undefined" || InstagramLink === null || InstagramLink === "") { return false; }  
+return true;

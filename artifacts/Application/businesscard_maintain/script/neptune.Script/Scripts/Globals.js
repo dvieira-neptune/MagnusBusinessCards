@@ -1,0 +1,2 @@
+var LinkChangeActive;
+var selectedBC;

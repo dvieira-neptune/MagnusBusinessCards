@@ -1,0 +1,24 @@
+{
+	"id": "dce12eca-6c05-f011-aaa7-6045bdde104c",
+	"createdAt": "2025-03-20T09:22:07.830Z",
+	"createdBy": "magnus.ertel@neptune-software.com",
+	"fields": [
+		{
+			"id": "b013379a-18fe-4764-a8c5-b168d5cb8bcf",
+			"fieldName": "backgroundLink",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "businesscard_backgrounds",
+	"description": null,
+	"ver": "25.03.20.0922",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "1d4986b7-1ec0-ed11-a8e0-000d3ada944e",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}

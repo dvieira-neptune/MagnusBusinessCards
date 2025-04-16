@@ -1,0 +1,34 @@
+var options = {
+  parameters: {
+    where: JSON.stringify({ id: modelCardDetailsPage.getData().id }),
+  },
+  data: {
+    name: Input.getValue(),
+    position : Input1.getValue(),
+    mail: Text.getValue(),
+    //phone: ,
+    mobile: Input4.getValue(),
+    companyDepartment: Input3.getValue(),
+    companyName: Input2.getValue(),
+    directLink: Input5.getValue(),
+    city: Text5.getValue(),
+    postalcode: Text3.getValue(),
+    departmentLocation: Text4.getValue(),
+    country: Text6.getValue(),
+    LinkedInLink: LinkedInLink.getText(),
+    InstagramLink: InstagramLink.getText(),
+    WhatsAppLink: WhatsappLink.getText(),
+    ScheduleMeetingLink: ScheduleAMeetingLink.getText(),
+    CompanyLink: MyCompanyLink.getText(),
+    VideoLink: VideoLink.getText(),
+    profilePictureLink: ProfilePictureLink.getText(),
+    backgroundLink: ImageBackgroundImage.getSrc(),
+    businessCardName: Input6.getValue(),
+
+  },
+};
+
+apiRestAPISaveBusinessCard(options);
+
+App.to(CardsOverviewPage);
+changeEditable(false);

@@ -1,0 +1,36 @@
+{
+	"id": "aaa43d73-4b03-f011-90c9-7c1e5237a7cf",
+	"createdAt": "2025-03-17T16:18:24.933Z",
+	"createdBy": "magnus.ertel@neptune-software.com",
+	"settings": {
+		"apis": {
+			"get": {
+				"api": "78a8230d-4b03-f011-90c9-7c1e5237a7cf",
+				"path": "3B4BAD22-7210-4600-9F39-BE48306C063B"
+			},
+			"list": {
+				"api": "78a8230d-4b03-f011-90c9-7c1e5237a7cf",
+				"path": "3B4BAD22-7210-4600-9F39-BE48306C063B"
+			},
+			"save": {
+				"api": "78a8230d-4b03-f011-90c9-7c1e5237a7cf",
+				"path": "7B6477B4-7E8F-4501-99ED-E952C4467503"
+			},
+			"delete": {
+				"api": "78a8230d-4b03-f011-90c9-7c1e5237a7cf",
+				"path": "AF0EF18E-63DB-471F-8A8B-B10BFC4AB3C0"
+			}
+		},
+		"hasDocumentation": false,
+		"previewable": false,
+		"tableid": "c43aba21-4a03-f011-90c9-7c1e5237a7cf"
+	},
+	"documentation": {},
+	"name": "businessCardAdminConnector",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "25.03.17.1622",
+	"disabled": false,
+	"package": "1d4986b7-1ec0-ed11-a8e0-000d3ada944e"
+}
